@@ -1,3 +1,5 @@
+import { Link as ReactRouterLink } from "react-router-dom";
+
 import styled, { css } from "./styled-components";
 
 const linkCSS = css`
@@ -11,7 +13,7 @@ const linkCSS = css`
   }
 `;
 
-const Link = styled.a`
+const Link = styled(ReactRouterLink)`
   ${linkCSS}
 `;
 

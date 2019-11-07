@@ -6,7 +6,7 @@ import Link from "./Link";
 
 const App: React.FC = () => (
   <ThemeProvider theme={theme}>
-    <Link href="/">A link</Link>
+    <Link to="/">A link</Link>
   </ThemeProvider>
 );
 
